@@ -22,6 +22,7 @@ def sidebar_bg(side_bg):
       unsafe_allow_html=True,
       )
 
+#système de recommandation
 def reco(sport, genre=None):
     if genre:
         recommandation = df_music[(df_music['Sport'] == sport) & (df_music['genre'] == genre)].sort_values('popularity', ascending=False).sample(n=6, replace=True)
