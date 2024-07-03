@@ -4,7 +4,6 @@ import pandas as pd
 import base64
 import requests
 
-
 #Variables
 df_music = pd.read_csv(r"C:\Users\eliot\Desktop\protojam\df_protojam.csv", sep=",")
 
