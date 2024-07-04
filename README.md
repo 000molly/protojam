@@ -1,4 +1,4 @@
-# Système de recommandation de musiques
+# 🎶Système de recommandation de musiques🎶
 
 Projet effectué dans le cadre de ma formation Data Analyst au sein de la Wild Code School.
 
